@@ -1,0 +1,72 @@
+body {
+  background-color: #c23f56;
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+  margin: auto;
+  
+}
+main{
+	background-color: #fdddff;
+	width:90%;
+	inline-block:center;
+	margin-rigth:5%;
+	margin-left:5%;
+	padding:20px;
+	heigth:80%;
+	flex:1;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.list-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.menu{
+	background-color: pink;
+	heigth:20%;
+	
+}
+
+.mensaje{
+	color:red;
+	text-sizing:30px;
+
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding: 20px;
+	heigth:10%;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
